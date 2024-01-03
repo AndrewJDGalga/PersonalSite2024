@@ -2,6 +2,8 @@
 **/*
 
 !style/
+!script/
 !.gitignore
 !*.html
 !*.css
+!*.js
