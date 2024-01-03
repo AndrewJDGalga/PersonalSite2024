@@ -1,0 +1,24 @@
+
+:root {
+    --light-brown: #D69C75;
+    --darkerbrown: #A87663;
+    --lightredbrown: #AE623F;
+    --darkredbrown: #743D2C;
+    --greyblue: #677592;
+    --brightblue: #007CAE;
+    --dimblue: #005C8C;
+    --seablue: #005075;
+    --darkgreyblue: #1B4563;
+    --dimdepthsblue: #00395D;
+    --forgottenblue: #01334D;
+    --grey: #C8BDBE;
+    --dimgreyred: #806A6B;
+    --dullfoamred: #705A55;
+    --darkgreypurple: #3B353D;
+    --greyred: #9D8C92;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
