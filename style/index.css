@@ -23,7 +23,6 @@ body {
     background-color: var(--greyblue);
 }
 
-
 .who__photo {
     width: 25vw;
     height: 25vw;
@@ -35,4 +34,14 @@ body {
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.who {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
