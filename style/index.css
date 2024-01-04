@@ -18,8 +18,21 @@
     --greyred: #9D8C92;
 }
 
-html, body {
-    height: 100%;
+body {
     margin: 0;
     background-color: var(--greyblue);
+}
+
+
+.who__photo {
+    width: 25vw;
+    height: 25vw;
+}
+
+.who__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
 }
