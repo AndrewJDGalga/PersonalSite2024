@@ -1,3 +1,4 @@
+/* --pending projects
 const hook = document.getElementById("what-do__game-containers");
 const ENGINES = Object.freeze({ UNITY: "./data/engine_icons/unity.svg", GODOT:"../data/engine_icons/godot.svg"});
 
@@ -26,4 +27,4 @@ class WorkBento {
 
 const testImagePath = "./data/photos/gameTestImage.jpg";
 const testBox = new WorkBento({parentElement:hook, imagePath:testImagePath});
-testBox.getBox();
+testBox.getBox();*/
