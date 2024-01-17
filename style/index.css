@@ -53,7 +53,6 @@ h3 {
     height: 25vw;
     max-height: 300px;
     min-height: 128px;
-
     grid-row: span 2;
 }
 
@@ -63,8 +62,6 @@ h3 {
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
-
-    
 }
 
 .who {
