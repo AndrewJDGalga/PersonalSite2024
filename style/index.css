@@ -51,7 +51,10 @@ h3 {
 }
 a {
     text-decoration: none;
-    color: var(--lightredbrown);
+    color: var(--light-brown);
+}
+a:hover {
+    color: var(--seablue);
 }
 .book-title {
     font-size: calc(var(--font-size-base) + 0.1rem);
