@@ -37,6 +37,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 48px;
 }
 h1 {
     font-family: 'Inria Serif', serif;
@@ -99,7 +100,6 @@ a:hover {
     grid-row: 3;
 }
 
-.who p {
-    
+.contact h3 {
+    font-size: calc(var(--font-size-base) + 0.3rem);
 }
-
