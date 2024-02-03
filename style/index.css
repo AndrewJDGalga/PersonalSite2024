@@ -18,8 +18,10 @@
     --darkgreypurple: #3B353D;
     --greyred: #9D8C92;
     /*size*/
+    --three-px: 3px;
     --sixteen-px: 16px;
     --font-size-base: 1.2rem;
+    --font-size-button: 1.5rem;
     --font-size-header: 4rem;
 }
 * {
@@ -30,12 +32,27 @@ html, body {
     height: 100%;
 }*/
 
+body {
+    font-size: var(--font-size-base);
+}
+
 .home_grid {
     background: linear-gradient(0.25turn, var(--light-brown), var(--brightblue));
     /*height: 100%;*/
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
+}
+
+.reveal_button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--grey);
+    color: var(--darkgreypurple);
+    border: none;
+    box-shadow: var(--three-px) var(--three-px) var(--three-px) var(--darkgreypurple);
+    font-size: var(--font-size-button);
 }
 
 .reveal_scroll {
