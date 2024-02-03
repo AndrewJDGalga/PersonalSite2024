@@ -27,6 +27,8 @@
     margin: 0;
 }
 
+
+/*
 body {
     font-family: 'Inter', sans-serif;
     font-size: var(--font-size-base);
@@ -103,10 +105,9 @@ a:hover {
 .contact h3 {
     font-size: calc(var(--font-size-base) + 0.3rem);
 }
+*/
 
 /*Desktop view */
 @media screen and (min-width: 1000px) {
-    .turn-270 {
-        transform: rotate(270deg);
-    }
+
 }
