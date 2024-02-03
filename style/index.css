@@ -39,13 +39,20 @@ html, body {
 
 .reveal_scroll {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .scroll_item {
     width: 30%;
 }
 
+
+/*Desktop view */
+@media screen and (min-width: 1000px) {
+    .reveal_scroll {
+        flex-direction: row;
+    }
+}
 
 
 /*
@@ -126,8 +133,3 @@ a:hover {
     font-size: calc(var(--font-size-base) + 0.3rem);
 }
 */
-
-/*Desktop view */
-@media screen and (min-width: 1000px) {
-
-}
