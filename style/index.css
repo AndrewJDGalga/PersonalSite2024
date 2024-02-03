@@ -19,10 +19,12 @@
     --greyred: #9D8C92;
     /*size*/
     --three-px: 3px;
+    --six-px: 6px;
     --sixteen-px: 16px;
     --font-size-base: 1.2rem;
     --font-size-button: 1.5rem;
     --font-size-header: 4rem;
+    --timing-button: 0.2s;
 }
 * {
     margin: 0;
@@ -46,6 +48,7 @@ body {
 
 .reveal_button {
     position: relative;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--grey);
@@ -53,6 +56,23 @@ body {
     border: none;
     box-shadow: var(--three-px) var(--three-px) var(--three-px) var(--darkgreypurple);
     font-size: var(--font-size-button);
+}
+.reveal_button:hover {
+    background-color: var(--darkgreypurple);
+    color: var(--grey);
+    box-shadow: var(--three-px) var(--three-px) var(--three-px) var(--grey);
+}
+.reveal_button:active {
+    animation-duration: var(--timing-button);
+    animation-name: pressed_pop;
+}
+@keyframes pressed_pop {
+    from {
+        top: 0;
+    }
+    to {
+        top: var(--six-px);
+    }
 }
 
 .reveal_scroll {
