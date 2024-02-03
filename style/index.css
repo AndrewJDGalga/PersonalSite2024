@@ -27,6 +27,20 @@
     margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
+.home_grid {
+    background: linear-gradient(0.25turn, var(--light-brown), var(--brightblue));
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+
+
 
 /*
 body {
