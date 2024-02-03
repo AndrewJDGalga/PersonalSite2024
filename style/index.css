@@ -40,6 +40,12 @@ html, body {
 .reveal_scroll {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden_scroll {
+    display: none;
 }
 
 .scroll_item {
