@@ -37,6 +37,14 @@ html, body {
     grid-template-rows: repeat(5, 1fr);
 }
 
+.reveal_scroll {
+    display: flex;
+    flex-direction: row;
+}
+
+.scroll_item {
+    width: 30%;
+}
 
 
 
