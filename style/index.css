@@ -2,11 +2,13 @@
 :root {
     /*color*/
     --light-brown: #D69C75;
+    --light-brown-half: rgba(214,156,117, 0.5);
     --darkerbrown: #A87663;
     --lightredbrown: #AE623F;
     --darkredbrown: #743D2C;
     --greyblue: #677592;
     --brightblue: #007CAE;
+    --bright-blue-half: rgba(0,124,174, 0.5);
     --dimblue: #005C8C;
     --seablue: #005075;
     --darkgreyblue: #1B4563;
@@ -36,11 +38,11 @@ html, body {
 
 body {
     font-size: var(--font-size-base);
+    background: var(--darkgreypurple) linear-gradient(90deg, var(--light-brown-half), var(--bright-blue-half));
+    color: var(--grey);
 }
 
 .home_grid {
-    background: linear-gradient(0.25turn, var(--light-brown), var(--brightblue));
-    /*height: 100%;*/
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
