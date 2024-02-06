@@ -32,15 +32,15 @@
 * {
     margin: 0;
 }
-/*
-html, body {
-    height: 100%;
-}*/
 
 body {
     font-size: var(--font-size-base);
     background: var(--darkgreypurple) linear-gradient(90deg, var(--light-brown-half), var(--bright-blue-half));
     color: var(--grey);
+}
+
+.purple_accent_square, .blue_accent_square {
+    display: none;
 }
 
 .home_grid {
@@ -93,12 +93,30 @@ body {
 }
 
 .scroll_item {
+    width: 95%;
     background-color: var(--forgottenblue);
 }
 
 
 /*Desktop view */
 @media screen and (min-width: 1000px) {
+    .purple_accent_square, .blue_accent_square {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 8rem;
+    }
+    .purple_accent_square {
+        background-color: var(--darkgreypurple);
+        z-index: -2;
+        top: 5rem;
+    }
+    .blue_accent_square {
+        background-color: var(--forgottenblue);
+        z-index: -1;
+        top: 0;
+    }
+
     .reveal_scroll {
         flex-direction: row;
     }
