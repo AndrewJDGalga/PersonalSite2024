@@ -40,10 +40,12 @@ body {
 }
 h1 {
     font-size: var(--font-size-header);
-    text-align: center;
 }
 h2 {
     font-size: var(--font-size-button);
+}
+h1,h2,h3 {
+    text-align: center;
 }
 
 .purple_accent_square, .blue_accent_square {
