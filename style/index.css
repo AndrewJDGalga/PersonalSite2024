@@ -98,6 +98,10 @@ h2 {
     padding: 0 var(--six-px) 0 var(--six-px);
     background-color: var(--forgottenblue);
 }
+.scroll_item--photo {
+    width: 100%;
+    height: auto;
+}
 
 .home_grid {
     display: grid;
