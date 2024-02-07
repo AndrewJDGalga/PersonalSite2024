@@ -26,8 +26,8 @@
     --thirty-two-px: 32px;
     --font-size-base: 1.2rem;
     --font-size-button: 1.5rem;
-    --font-size-header: 4rem;
-    --timing-button: 0.2s;
+    --font-size-header: 3rem;
+    --timing-button: 0.1s;
 }
 * {
     margin: 0;
@@ -37,6 +37,12 @@ body {
     font-size: var(--font-size-base);
     background: var(--darkgreypurple) linear-gradient(90deg, var(--light-brown-half), var(--bright-blue-half));
     color: var(--grey);
+}
+h1 {
+    font-size: var(--font-size-header);
+}
+h2 {
+    font-size: var(--font-size-button);
 }
 
 .purple_accent_square, .blue_accent_square {
@@ -88,6 +94,7 @@ body {
 
 .scroll_item {
     width: 95%;
+    padding: 0 var(--six-px) 0 var(--six-px);
     background-color: var(--forgottenblue);
 }
 
@@ -95,6 +102,9 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
+}
+.home_grid--about p {
+    padding: 0 var(--six-px) 0 var(--six-px);
 }
 .home_grid--about-img {
     width: 30vw;
