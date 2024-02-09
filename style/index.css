@@ -56,24 +56,28 @@ a {
     display: none;
 }
 
-.reveal_button {
+.reveal_button, .link-button{
     position: relative;
     margin: var(--six-px) 0 var(--six-px) 0;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: var(--grey);
     color: var(--darkgreypurple);
     border: none;
     box-shadow: var(--three-px) var(--three-px) var(--three-px) var(--darkgreypurple);
     font-size: var(--font-size-button);
 }
-.reveal_button:hover {
+.link-button {
+    padding: var(--three-px);
+}
+.reveal_button {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.reveal_button:hover, .link-button:hover {
     background-color: var(--darkgreypurple);
     color: var(--grey);
     box-shadow: var(--three-px) var(--three-px) var(--three-px) var(--grey);
 }
-.reveal_button:active {
+.reveal_button:active, .link-button:active {
     animation-duration: var(--timing-button);
     animation-name: pressed_pop;
 }
@@ -103,7 +107,12 @@ a {
     width: 95%;
     padding: 0 var(--six-px) 0 var(--six-px);
     background-color: var(--forgottenblue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .scroll_item--photo {
     width: 100%;
     height: auto;
