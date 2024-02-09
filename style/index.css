@@ -47,6 +47,10 @@ h2 {
 h1,h2,h3 {
     text-align: center;
 }
+a {
+    font-style: none;
+    color: var(--grey);
+}
 
 .purple_accent_square, .blue_accent_square {
     display: none;
