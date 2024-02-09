@@ -1,4 +1,8 @@
+const portfolio_web_btn = document.getElementById("home_grid--web--reveal");
+const portfolio_web_sect = document.getElementById("home_grid--web--work");
 
+const portfolio_game_btn = document.getElementById("home_grid--game--reveal");
+const portfolio_game_sect = document.getElementById("home_grid--game--work");
 
 
 /* --pending projects
