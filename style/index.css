@@ -34,6 +34,7 @@
 }
 
 body {
+    font-family: 'Inter', sans-serif;
     font-size: var(--font-size-base);
     background: var(--darkgreypurple) linear-gradient(90deg, var(--light-brown-half), var(--bright-blue-half));
     color: var(--grey);
@@ -45,6 +46,7 @@ h2 {
     font-size: var(--font-size-button);
 }
 h1,h2,h3 {
+    font-family: 'Inria Serif', serif;
     text-align: center;
 }
 a {
@@ -142,7 +144,6 @@ a {
     object-position: top;
     border-radius: 50%;
 }
-
 
 /*Desktop view */
 @media screen and (min-width: 1000px) {
