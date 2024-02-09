@@ -53,6 +53,9 @@ a {
     font-style: none;
     color: var(--grey);
 }
+footer {
+    background-color: var(--darkgreypurple);
+}
 
 .purple_accent_square, .blue_accent_square {
     display: none;
