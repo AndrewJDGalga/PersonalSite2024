@@ -38,6 +38,16 @@ body {
     font-size: var(--font-size-base);
     background: var(--darkgreypurple) linear-gradient(90deg, var(--light-brown-half), var(--bright-blue-half));
     color: var(--grey);
+
+    scrollbar-width: thin;
+    overflow-y: scroll;
+    scrollbar-color: var(--bright-blue-half) var(--light-brown-half);
+}
+::-webkit-scrollbar {
+    background: var(--bright-blue-half);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--light-brown-half);
 }
 h1 {
     font-size: var(--font-size-header);
