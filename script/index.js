@@ -4,6 +4,17 @@ const portfolio_web_sect = document.getElementById("home_grid--web--work");
 const portfolio_game_btn = document.getElementById("home_grid--game--reveal");
 const portfolio_game_sect = document.getElementById("home_grid--game--work");
 
+portfolio_web_btn.addEventListener('click', ()=>{
+    if(portfolio_web_sect.classList.contains("hidden_scroll")){
+        portfolio_web_sect.classList.remove("hidden_scroll");
+    } else {
+        portfolio_web_sect.classList.add("hidden_scroll");
+    }
+});
+
+portfolio_game_btn.addEventListener('click', ()=>{
+
+});
 
 /* --pending projects
 const hook = document.getElementById("what-do__game-containers");
