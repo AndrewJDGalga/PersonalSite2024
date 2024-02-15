@@ -39,16 +39,25 @@ body {
     background: var(--darkgreypurple) linear-gradient(90deg, var(--light-brown-half), var(--bright-blue-half));
     color: var(--grey);
 
-    scrollbar-width: thin;
-    overflow-y: scroll;
-    scrollbar-color: var(--bright-blue-half) var(--light-brown-half);
+    /*scrollbar-width: thin;*/
+    /*overflow-y: scroll;*/
+    /*scrollbar-color: var(--bright-blue-half) var(--light-brown-half);*/
+    /*scrollbar-color: linear-gradient(var(--bright-blue-half), var(--light-brown-half));*/
 }
+/*
 ::-webkit-scrollbar {
     background: var(--bright-blue-half);
+    background: linear-gradient(var(--bright-blue-half), var(--light-brown-half));
 }
 ::-webkit-scrollbar-thumb {
     background: var(--light-brown-half);
+    background: var(--darkgreypurple);
+}*/
+/*
+::-webkit-scrollbar-button {
+    background: var(--light-brown-half);
 }
+*/
 h1 {
     font-size: var(--font-size-header);
 }
