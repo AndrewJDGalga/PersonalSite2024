@@ -4,16 +4,23 @@ const portfolio_web_sect = document.getElementById("home_grid--web--work");
 const portfolio_game_btn = document.getElementById("home_grid--game--reveal");
 const portfolio_game_sect = document.getElementById("home_grid--game--work");
 
+const applyClass = (obj, cssClass) => {
+    (obj.classList.contains(cssClass)) ? obj.classList.remove(cssClass) : obj.classList.add(cssClass);
+};
+
 portfolio_web_btn.addEventListener('click', ()=>{
+    applyClass(portfolio_web_sect, "hidden_scroll");
+    /*
     if(portfolio_web_sect.classList.contains("hidden_scroll")){
         portfolio_web_sect.classList.remove("hidden_scroll");
     } else {
         portfolio_web_sect.classList.add("hidden_scroll");
     }
+    */
 });
 
 portfolio_game_btn.addEventListener('click', ()=>{
-
+    applyClass(portfolio_game_sect, "hidden_scroll");
 });
 
 /* --pending projects
