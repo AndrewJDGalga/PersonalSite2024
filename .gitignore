@@ -3,7 +3,9 @@
 
 !style/
 !script/
+!data/
 !.gitignore
 !*.html
 !*.css
 !*.js
+!*.json
