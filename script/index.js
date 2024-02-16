@@ -21,14 +21,29 @@ const createWebSection = (jsonObj) => {
     console.log(jsonObj.web);
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
         const itemContainer = document.createElement('div');
-        itemContainer.classList.add("scroll_item");
-        const itemImage = document.createElement('img');
-        itemImage.src = "data/photos/gameTestImage.jpg"; //jsonObj.web.photo-location;
-        itemImage.alt = "test";
-        itemImage.classList.add("scroll_item--photo");
+        itemContainer.classList.add('scroll_item');
         portfolio_web_sect.appendChild(itemContainer);
+
+        const itemImage = document.createElement('img');
+        itemImage.src = 'data/photos/gameTestImage.jpg'; //jsonObj.web.photo-location;
+        itemImage.alt = 'test';
+        itemImage.classList.add('scroll_item--photo');
         itemContainer.appendChild(itemImage);
-        //portfolio_web_sect.
+
+        const itemHeader = document.createElement('h3');
+
+        itemContainer.appendChild(itemHeader);
+
+        const itemHeaderLink = document.createElement('a');
+
+        itemHeader.appendChild(itemHeaderLink);
+
+        const itemBlurb = document.createElement('p');
+
+        itemContainer.appendChild(itemBlurb);
+
+        const itemButton = document.createElement('a');
+        itemContainer.appendChild(itemButton);
     }
     //console.log(Object.keys(jsonObj.web).length);
 }
