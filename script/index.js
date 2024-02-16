@@ -10,13 +10,6 @@ const applyClass = (obj, cssClass) => {
 
 portfolio_web_btn.addEventListener('click', ()=>{
     applyClass(portfolio_web_sect, "hidden_scroll");
-    /*
-    if(portfolio_web_sect.classList.contains("hidden_scroll")){
-        portfolio_web_sect.classList.remove("hidden_scroll");
-    } else {
-        portfolio_web_sect.classList.add("hidden_scroll");
-    }
-    */
 });
 
 portfolio_game_btn.addEventListener('click', ()=>{

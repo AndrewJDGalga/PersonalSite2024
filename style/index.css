@@ -146,6 +146,13 @@ a {
     border-radius: 50%;
 }
 
+.home_grid--contact {
+    background-color: var(--darkgreypurple);
+}
+.home_grid--contact h2 {
+    color: var(--brightblue);
+}
+
 /*Desktop view */
 @media screen and (min-width: 1000px) {
     .purple_accent_square, .blue_accent_square {
