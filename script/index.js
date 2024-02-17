@@ -43,30 +43,6 @@ const createItemBlurb = (blurb) =>{
     return itemBlurb;
 }
 
-const createWebSection = (jsonObj) => {
-    for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
-        const itemContainer = createItemContainer('div', 'scroll_item');
-        itemContainer.appendChild(createItemImage(jsonObj['web'][i].photoLocation, jsonObj.web[i].photoAlt, 'scroll_item--photo'));
-        itemContainer.appendChild(createItemTitle(jsonObj.web[i].title, jsonObj.web[i].titleLink));
-        itemContainer.appendChild(createItemBlurb(jsonObj.web[i].blurb));
-        itemContainer.appendChild(createItemLink(jsonObj.web[i].buttonText, jsonObj.web[i].buttonLink,'link-button'));
-
-        portfolio_web_sect.appendChild(itemContainer);
-    }
-}
-
-const createGameSection = (jsonObj) => {
-    for(let i = 0; i < Object.keys(jsonObj.game).length;i++) {
-        const itemContainer = createItemContainer('div', 'scroll_item');
-        itemContainer.appendChild(createItemImage(jsonObj.game[i].photoLocation, jsonObj.game[i].photoAlt, 'scroll_item--photo'));
-        itemContainer.appendChild(createItemTitle(jsonObj.game[i].title, jsonObj.game[i].titleLink));
-        itemContainer.appendChild(createItemBlurb(jsonObj.game[i].blurb));
-        itemContainer.appendChild(createItemLink(jsonObj.game[i].buttonText, jsonObj.game[i].buttonLink,'link-button'));
-
-        portfolio_game_sect.appendChild(itemContainer);
-    }
-}
-
 const createSection = (parentObj, jsonObj, sectionName) => {
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
         const itemContainer = createItemContainer('div', 'scroll_item');
@@ -83,10 +59,6 @@ const data_content = async () => {
     await fetch(data_source)
         .then((response)=> response.json())
         .then((json)=>{
-            //const data = json;
-            //createWebSection(json);
-            //createGameSection(json);
-            //portfolio_web_sect.appendChild(createSection(json, 'web'));
             createSection(portfolio_web_sect, json, 'web');
             createSection(portfolio_game_sect, json, 'game');
         });
@@ -105,33 +77,3 @@ portfolio_game_btn.addEventListener('click', ()=>{
     applyClass(portfolio_game_sect, "hidden_scroll");
 });
 
-/* --pending projects
-const hook = document.getElementById("what-do__game-containers");
-const ENGINES = Object.freeze({ UNITY: "./data/engine_icons/unity.svg", GODOT:"../data/engine_icons/godot.svg"});
-
-class WorkBento {
-    constructor({parentElement, imagePath="", engine="", blurb="", codeLink="", playLink=""}){
-        Object.keys(ENGINES).forEach(element => {
-            if(engine.toUpperCase() === element) this.engineImagePath=engine;
-        });
-        this.imagePath = imagePath;
-        this.blurb = blurb;
-        this.codeLink = codeLink;
-        this.playLink = playLink;
-        this.parentElement = parentElement;
-    }
-    getBox(){
-        const bod = document.createElement("div");
-        bod.appendChild(this.getImage());
-        this.parentElement.appendChild(bod);
-    }
-    getImage(){
-        const img = document.createElement("img");
-        img.src = this.imagePath;
-        return img;
-    }
-}
-
-const testImagePath = "./data/photos/gameTestImage.jpg";
-const testBox = new WorkBento({parentElement:hook, imagePath:testImagePath});
-testBox.getBox();*/
