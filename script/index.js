@@ -31,15 +31,16 @@ const createItemImage = (fileLocation, altText, cssClass) => {
     return itemImage;
 }
 
+const createHeaderLink = (linkText, linkDestination) => {
+    const itemHeaderLink = document.createElement('a');
+    itemHeaderLink.innerText = linkText;
+    itemHeaderLink.href = linkDestination;
+    return itemHeaderLink;
+}
+
 const createWebSection = (jsonObj) => {
     console.log(jsonObj.web);
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
-        /*
-        const itemContainer = document.createElement('div');
-        itemContainer.classList.add('scroll_item');
-        portfolio_web_sect.appendChild(itemContainer);
-        */
-
         const itemContainer = createItemContainer('div', 'scroll_item');
         portfolio_web_sect.appendChild(itemContainer);
         
@@ -48,10 +49,12 @@ const createWebSection = (jsonObj) => {
         const itemHeader = document.createElement('h3');
         itemContainer.appendChild(itemHeader);
 
-        const itemHeaderLink = document.createElement('a');
+        /*     
         itemHeaderLink.innerText = 'Lorem Ipsum Dolor';
         itemHeaderLink.href = '#';
         itemHeader.appendChild(itemHeaderLink);
+        */
+       itemHeader.appendChild(createHeaderLink('Lorem Ipsum Dolor', '#'));
 
         const itemBlurb = document.createElement('p');
         itemBlurb.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
