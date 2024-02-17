@@ -1,31 +1,22 @@
 {
     "web": {
         "0":{
-            "title": "Lorem Ipsum Dolor",
-            "titleLink": "#",
+            "title": "ATX Game Designers",
+            "titleLink": "https://atxgamedesigners.com/",
             "photoLocation": "data/photos/gameTestImage.jpg",
-            "photoAlt":"test",
-            "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "buttonText":"GitHub",
-            "buttonLink":"#"
+            "photoAlt":"Photo of ATX Game Designers website",
+            "blurb": "Created for local board game design group ATX Game Designers as part of my Web Development Practicum (final coursework). I created 2 versions of this site: 1 in WordPress for the client, and 1 from HTML, CSS, and JS for my college.",
+            "buttonText":"WordPress Theme on GitHub",
+            "buttonLink":"https://github.com/AndrewJDGalga/ATXGDThemePublic"
         },
         "1":{
-            "title": "Lorem Ipsum Dolor",
-            "titleLink": "#",
+            "title": "In the Dark Timer",
+            "titleLink": "https://inthedarktimer.com/",
             "photoLocation": "data/photos/gameTestImage.jpg",
-            "photoAlt":"test",
-            "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "photoAlt":"Photo of In The Dark Timer website",
+            "blurb": "Compainion web application for board game developer. Developer required a timer with vague timing, or effects that would indicate time was passing without revealing anything to players of the board game. I built a small backend with PHP to allow the developer to modify audio files and timer timing.",
             "buttonText":"GitHub",
-            "buttonLink":"#"
-        },
-        "2":{
-            "title": "Lorem Ipsum Dolor",
-            "titleLink": "#",
-            "photoLocation": "data/photos/gameTestImage.jpg",
-            "photoAlt":"test",
-            "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "buttonText":"GitHub",
-            "buttonLink":"#"
+            "buttonLink":"https://github.com/AndrewJDGalga/InTheDark"
         }
     },
     "game":{
