@@ -47,7 +47,7 @@ const createWebSection = (jsonObj) => {
     console.log(jsonObj.web[1].photoLocation);
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
         const itemContainer = createItemContainer('div', 'scroll_item');
-        itemContainer.appendChild(createItemImage('data/photos/gameTestImage.jpg', 'test', 'scroll_item--photo'));
+        itemContainer.appendChild(createItemImage(jsonObj.web[i].photoLocation, jsonObj.web[i].photoAlt, 'scroll_item--photo'));
         itemContainer.appendChild(createItemTitle('Lorem Ipsum Dolor', '#'));
         itemContainer.appendChild(createItemBlurb('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'));
         itemContainer.appendChild(createItemLink('github','#','link-button'));
