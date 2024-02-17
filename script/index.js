@@ -31,16 +31,19 @@ const createItemImage = (fileLocation, altText, cssClass) => {
     return itemImage;
 }
 
-const createItemTitleLink = (linkText, linkDestination) => {
-    const itemHeaderLink = document.createElement('a');
-    itemHeaderLink.innerText = linkText;
-    itemHeaderLink.href = linkDestination;
-    return itemHeaderLink;
+const createItemLink = (linkText, linkDestination, cssClass=null) => {
+    const itemLink = document.createElement('a');
+    itemLink.innerText = linkText;
+    itemLink.href = linkDestination;
+    if(cssClass) {
+        itemLink.classList.add(cssClass);
+    }
+    return itemLink;
 }
 
 const createItemTitle = (linkText, linkDestination) => {
     const itemHeader = document.createElement('h3');
-    itemHeader.appendChild(createItemTitleLink(linkText, linkDestination));
+    itemHeader.appendChild(createItemLink(linkText, linkDestination));
     return itemHeader;
 }
 
@@ -50,25 +53,29 @@ const createItemBlurb = (blurb) =>{
     return itemBlurb;
 }
 
+/*
+const createItemBtn = () => {
+    const itemButton = document.createElement('a');
+    itemButton.classList.add('link-button');
+    itemButton.innerText = 'GitHub';
+}
+*/
+
 const createWebSection = (jsonObj) => {
     console.log(jsonObj.web);
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
         const itemContainer = createItemContainer('div', 'scroll_item');
         itemContainer.appendChild(createItemImage('data/photos/gameTestImage.jpg', 'test', 'scroll_item--photo'));
-
-        /*
-        const itemHeader = document.createElement('h3');
-        itemHeader.appendChild(createItemHeaderLink('Lorem Ipsum Dolor', '#'));
-        itemContainer.appendChild(itemHeader);
-        */
         itemContainer.appendChild(createItemTitle('Lorem Ipsum Dolor', '#'));
-
         itemContainer.appendChild(createItemBlurb('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'));
 
+        /*
         const itemButton = document.createElement('a');
         itemButton.classList.add('link-button');
         itemButton.innerText = 'GitHub';
         itemContainer.appendChild(itemButton);
+        */
+        itemContainer.appendChild(createItemLink('github','#','link-button'));
 
         portfolio_web_sect.appendChild(itemContainer);
     }
