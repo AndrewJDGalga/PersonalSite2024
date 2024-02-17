@@ -14,20 +14,20 @@
             "titleLink": "https://inthedarktimer.com/",
             "photoLocation": "data/photos/inthedarktimer.png",
             "photoAlt":"Photo of In The Dark Timer website",
-            "blurb": "In the Dark Timer is a compainion web app for a board game. The game's Designer required a timer with vague effects that would indicate time was passing without revealing the time remaining to players of the board game. I built a small backend with PHP to allow the Designer to modify audio files and timer timing.",
+            "blurb": "In the Dark Timer is a companion web app for a board game. The game's Designer required a timer with vague effects that would indicate time was passing without revealing the time remaining to players of the board game. I built a small backend with PHP to allow the Designer to modify audio files and timer timing.",
             "buttonText":"GitHub",
             "buttonLink":"https://github.com/AndrewJDGalga/InTheDark"
         }
     },
     "game":{
         "0":{
-            "title": "Lorem Ipsum Dolor",
-            "titleLink": "#",
-            "photoLocation": "data/photos/gameTestImage.jpg",
-            "photoAlt":"test",
-            "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "title": "Fight for Phoenix",
+            "titleLink": "https://quietwarrior.itch.io/fight-for-phoenix",
+            "photoLocation": "data/photos/fightforphoenix.png",
+            "photoAlt":"Title image for Fight for Phoenix",
+            "blurb": "Fight for Phoenix is a prototype produced for the in-person ATX Game Makers 2nd Annual Game Jam-A-Thon. I assisted as a Unity Programmer by designing the movement and feel of the Player and Enemy entities.",
             "buttonText":"GitHub",
-            "buttonLink":"#"
+            "buttonLink":"https://github.com/hopeforsenegal/fight-for-phoenix"
         },
         "1":{
             "title": "Lorem Ipsum Dolor",
