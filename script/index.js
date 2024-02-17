@@ -20,11 +20,16 @@ const data_source = "data/content.json";
 const createItemContainer = (elementType, cssClass) => {
     const itemContainer = document.createElement(elementType);
     itemContainer.classList.add(cssClass);
-    //parent.appendChild(itemContainer);
     return itemContainer;
 }
 
-
+const createItemImage = (fileLocation, altText, cssClass) => {
+    const itemImage = document.createElement('img');
+    itemImage.src = fileLocation;
+    itemImage.alt = altText;
+    itemImage.classList.add(cssClass);
+    return itemImage;
+}
 
 const createWebSection = (jsonObj) => {
     console.log(jsonObj.web);
@@ -37,12 +42,8 @@ const createWebSection = (jsonObj) => {
 
         const itemContainer = createItemContainer('div', 'scroll_item');
         portfolio_web_sect.appendChild(itemContainer);
-
-        const itemImage = document.createElement('img');
-        itemImage.src = 'data/photos/gameTestImage.jpg'; //jsonObj.web.photo-location;
-        itemImage.alt = 'test';
-        itemImage.classList.add('scroll_item--photo');
-        itemContainer.appendChild(itemImage);
+        
+        itemContainer.appendChild(createItemImage('data/photos/gameTestImage.jpg', 'test', 'scroll_item--photo'));
 
         const itemHeader = document.createElement('h3');
         itemContainer.appendChild(itemHeader);
