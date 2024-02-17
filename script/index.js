@@ -44,7 +44,7 @@ const createItemBlurb = (blurb) =>{
 }
 
 const createWebSection = (jsonObj) => {
-    console.log(jsonObj.web[1].photoLocation);
+    //console.log(jsonObj.web[1].photoLocation);
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
         const itemContainer = createItemContainer('div', 'scroll_item');
         itemContainer.appendChild(createItemImage(jsonObj.web[i].photoLocation, jsonObj.web[i].photoAlt, 'scroll_item--photo'));
@@ -56,11 +56,26 @@ const createWebSection = (jsonObj) => {
     }
 }
 
+const createGameSection = (jsonObj) => {
+    //console.log(jsonObj.web[1].photoLocation);
+    for(let i = 0; i < Object.keys(jsonObj.game).length;i++) {
+        const itemContainer = createItemContainer('div', 'scroll_item');
+        itemContainer.appendChild(createItemImage(jsonObj.game[i].photoLocation, jsonObj.game[i].photoAlt, 'scroll_item--photo'));
+        itemContainer.appendChild(createItemTitle(jsonObj.game[i].title, jsonObj.game[i].titleLink));
+        itemContainer.appendChild(createItemBlurb(jsonObj.game[i].blurb));
+        itemContainer.appendChild(createItemLink(jsonObj.game[i].buttonText, jsonObj.game[i].buttonLink,'link-button'));
+
+        portfolio_game_sect.appendChild(itemContainer);
+    }
+}
+
 const data_content = async () => {
     await fetch(data_source)
         .then((response)=> response.json())
         .then((json)=>{
             createWebSection(json);
+
+            createGameSection(json);
         });
 }
 data_content();
