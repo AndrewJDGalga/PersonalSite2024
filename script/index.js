@@ -44,7 +44,7 @@ const createItemBlurb = (blurb) =>{
 }
 
 const createSection = (parentObj, jsonObj, sectionName) => {
-    for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
+    for(let i = 0; i < Object.keys(jsonObj[sectionName]).length;i++) {
         const itemContainer = createItemContainer('div', 'scroll_item');
         itemContainer.appendChild(createItemImage(jsonObj[sectionName][i].photoLocation, jsonObj[sectionName][i].photoAlt, 'scroll_item--photo'));
         itemContainer.appendChild(createItemTitle(jsonObj[sectionName][i].title, jsonObj[sectionName][i].titleLink));

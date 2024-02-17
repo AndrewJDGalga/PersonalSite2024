@@ -30,22 +30,22 @@
             "buttonLink":"https://github.com/hopeforsenegal/fight-for-phoenix"
         },
         "1":{
-            "title": "Lorem Ipsum Dolor",
-            "titleLink": "#",
-            "photoLocation": "data/photos/gameTestImage.jpg",
-            "photoAlt":"test",
-            "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "title": "Redneck Fishin",
+            "titleLink": "https://dgalga.itch.io/ggj2024-redneckfishin",
+            "photoLocation": "data/photos/RedNeckFishing.png",
+            "photoAlt":"Title protagonist Curtis without a shirt.",
+            "blurb": "Submission for Global Game Jam 2024. I assisted a team relatively new to game jams as a Godot Programmer and Support Designer. Hosted by the Museum of Human Achievement in Austin.",
             "buttonText":"GitHub",
-            "buttonLink":"#"
+            "buttonLink":"https://github.com/AndrewJDGalga/ggj2024"
         },
         "2":{
-            "title": "Lorem Ipsum Dolor",
-            "titleLink": "#",
-            "photoLocation": "data/photos/gameTestImage.jpg",
-            "photoAlt":"test",
-            "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "buttonText":"GitHub",
-            "buttonLink":"#"
+            "title": "Dagger Duel",
+            "titleLink": "https://andrewjonhardt.com/daggerduel",
+            "photoLocation": "data/photos/daggerduel.png",
+            "photoAlt":"Photo from the page I setup to show Dagger Duel to potential publishers.",
+            "blurb": "Dagger Duel is a project I've been developing since March 2023. It's not my first game, but it's the first I've created that feels like it could be something good. I'm currently figuring out the theme, as the name doesn't fit the feel, and how I should approach selling the game. If you're a publisher or interested in providing financial backing after trying the web demo I've set up, let me know!",
+            "buttonText":"GitHub for web demo",
+            "buttonLink":"https://github.com/AndrewJDGalga/daggerduel-minimal"
         }
     }
 }
