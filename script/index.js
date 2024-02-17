@@ -67,7 +67,7 @@ const createGameSection = (jsonObj) => {
     }
 }
 
-const createSection = (jsonObj, sectionName) => {
+const createSection = (parentObj, jsonObj, sectionName) => {
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
         const itemContainer = createItemContainer('div', 'scroll_item');
         itemContainer.appendChild(createItemImage(jsonObj[sectionName][i].photoLocation, jsonObj[sectionName][i].photoAlt, 'scroll_item--photo'));
@@ -75,7 +75,7 @@ const createSection = (jsonObj, sectionName) => {
         itemContainer.appendChild(createItemBlurb(jsonObj[sectionName][i].blurb));
         itemContainer.appendChild(createItemLink(jsonObj[sectionName][i].buttonText, jsonObj[sectionName][i].buttonLink,'link-button'));
 
-        portfolio_web_sect.appendChild(itemContainer);
+        parentObj.appendChild(itemContainer);
     }
 }
 
@@ -87,7 +87,8 @@ const data_content = async () => {
             //createWebSection(json);
             //createGameSection(json);
             //portfolio_web_sect.appendChild(createSection(json, 'web'));
-            createSection(json, 'web');
+            createSection(portfolio_web_sect, json, 'web');
+            createSection(portfolio_game_sect, json, 'game');
         });
 }
 data_content();
