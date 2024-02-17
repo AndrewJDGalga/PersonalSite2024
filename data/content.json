@@ -3,7 +3,7 @@
         "0":{
             "title": "ATX Game Designers",
             "titleLink": "https://atxgamedesigners.com/",
-            "photoLocation": "data/photos/gameTestImage.jpg",
+            "photoLocation": "data/photos/atxgamedesigners.png",
             "photoAlt":"Photo of ATX Game Designers website",
             "blurb": "Created for local board game design group ATX Game Designers as part of my Web Development Practicum (final coursework). I created 2 versions of this site: 1 in WordPress for the client, and 1 from HTML, CSS, and JS for my college.",
             "buttonText":"WordPress Theme on GitHub",
@@ -12,9 +12,9 @@
         "1":{
             "title": "In the Dark Timer",
             "titleLink": "https://inthedarktimer.com/",
-            "photoLocation": "data/photos/gameTestImage.jpg",
+            "photoLocation": "data/photos/inthedarktimer.png",
             "photoAlt":"Photo of In The Dark Timer website",
-            "blurb": "Compainion web application for board game developer. Developer required a timer with vague timing, or effects that would indicate time was passing without revealing anything to players of the board game. I built a small backend with PHP to allow the developer to modify audio files and timer timing.",
+            "blurb": "In the Dark Timer is a compainion web app for a board game. The game's Designer required a timer with vague effects that would indicate time was passing without revealing the time remaining to players of the board game. I built a small backend with PHP to allow the Designer to modify audio files and timer timing.",
             "buttonText":"GitHub",
             "buttonLink":"https://github.com/AndrewJDGalga/InTheDark"
         }
