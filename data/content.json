@@ -43,7 +43,7 @@
             "titleLink": "https://andrewjonhardt.com/daggerduel",
             "photoLocation": "data/photos/daggerduel.png",
             "photoAlt":"Photo from the page I setup to show Dagger Duel to potential publishers.",
-            "blurb": "Dagger Duel is a project I've been developing since March 2023. It's not my first game, but it's the first I've created that feels like it could be something good. I'm currently figuring out the theme, as the name doesn't fit the feel, and how I should approach selling the game. If you're a publisher or interested in providing financial backing after trying the web demo I've set up, let me know!",
+            "blurb": "Dagger Duel is a project I've been developing since March 2023. It's the first I've created that feels like it could be something good. I'm currently figuring out the theme, as the name doesn't fit the feel, and how I should approach selling the game. If you're a publisher, or someone interested in providing financial backing after trying the web demo, let me know!",
             "buttonText":"GitHub for web demo",
             "buttonLink":"https://github.com/AndrewJDGalga/daggerduel-minimal"
         }
