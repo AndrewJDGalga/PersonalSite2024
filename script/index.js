@@ -17,11 +17,25 @@ const data_source = "data/content.json";
 </div>
 */
 
+const createItemContainer = (elementType, cssClass) => {
+    const itemContainer = document.createElement(elementType);
+    itemContainer.classList.add(cssClass);
+    //parent.appendChild(itemContainer);
+    return itemContainer;
+}
+
+
+
 const createWebSection = (jsonObj) => {
     console.log(jsonObj.web);
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
+        /*
         const itemContainer = document.createElement('div');
         itemContainer.classList.add('scroll_item');
+        portfolio_web_sect.appendChild(itemContainer);
+        */
+
+        const itemContainer = createItemContainer('div', 'scroll_item');
         portfolio_web_sect.appendChild(itemContainer);
 
         const itemImage = document.createElement('img');
