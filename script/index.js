@@ -6,16 +6,6 @@ const portfolio_game_sect = document.getElementById("home_grid--game--work");
 
 const data_source = "data/content.json";
 
-/*
-<div class="scroll_item">
-    <img class="scroll_item--photo" src="data/photos/gameTestImage.jpg" alt="test">
-    <h3><a href="#">Lorem Ipsum Dolor</a></h3>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <a class="link-button">GitHub</a>
-</div>
-*/
 
 const createItemContainer = (elementType, cssClass) => {
     const itemContainer = document.createElement(elementType);
@@ -53,14 +43,6 @@ const createItemBlurb = (blurb) =>{
     return itemBlurb;
 }
 
-/*
-const createItemBtn = () => {
-    const itemButton = document.createElement('a');
-    itemButton.classList.add('link-button');
-    itemButton.innerText = 'GitHub';
-}
-*/
-
 const createWebSection = (jsonObj) => {
     console.log(jsonObj.web);
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
@@ -68,18 +50,10 @@ const createWebSection = (jsonObj) => {
         itemContainer.appendChild(createItemImage('data/photos/gameTestImage.jpg', 'test', 'scroll_item--photo'));
         itemContainer.appendChild(createItemTitle('Lorem Ipsum Dolor', '#'));
         itemContainer.appendChild(createItemBlurb('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'));
-
-        /*
-        const itemButton = document.createElement('a');
-        itemButton.classList.add('link-button');
-        itemButton.innerText = 'GitHub';
-        itemContainer.appendChild(itemButton);
-        */
         itemContainer.appendChild(createItemLink('github','#','link-button'));
 
         portfolio_web_sect.appendChild(itemContainer);
     }
-    //console.log(Object.keys(jsonObj.web).length);
 }
 
 const data_content = async () => {
