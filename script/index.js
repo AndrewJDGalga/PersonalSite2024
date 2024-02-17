@@ -44,7 +44,7 @@ const createItemBlurb = (blurb) =>{
 }
 
 const createWebSection = (jsonObj) => {
-    console.log(jsonObj.web);
+    console.log(jsonObj.web[1].photoLocation);
     for(let i = 0; i < Object.keys(jsonObj.web).length;i++) {
         const itemContainer = createItemContainer('div', 'scroll_item');
         itemContainer.appendChild(createItemImage('data/photos/gameTestImage.jpg', 'test', 'scroll_item--photo'));
