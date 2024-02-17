@@ -31,18 +31,20 @@ const createWebSection = (jsonObj) => {
         itemContainer.appendChild(itemImage);
 
         const itemHeader = document.createElement('h3');
-
         itemContainer.appendChild(itemHeader);
 
         const itemHeaderLink = document.createElement('a');
-
+        itemHeaderLink.innerText = 'Lorem Ipsum Dolor';
+        itemHeaderLink.href = '#';
         itemHeader.appendChild(itemHeaderLink);
 
         const itemBlurb = document.createElement('p');
-
+        itemBlurb.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
         itemContainer.appendChild(itemBlurb);
 
         const itemButton = document.createElement('a');
+        itemButton.classList.add('link-button');
+        itemButton.innerText = 'GitHub';
         itemContainer.appendChild(itemButton);
     }
     //console.log(Object.keys(jsonObj.web).length);
