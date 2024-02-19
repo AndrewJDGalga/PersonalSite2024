@@ -56,7 +56,7 @@ a {
 }
 
 .site_content {
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
 }
@@ -171,13 +171,13 @@ a {
         background-color: var(--darkgreypurple);
         z-index: -2;
         top: 5rem;
-        left: 30%;
+        left: 50%;
     }
     .blue_accent_square {
         background-color: var(--forgottenblue);
         z-index: -1;
-        top: 0;
-        left:20%;
+        top: 10%;
+        left:40%;
     }
 
     .reveal_scroll {
@@ -196,11 +196,13 @@ a {
     .home_grid--about h1 {
         grid-column: 2;
         grid-row: 2;
+        margin-right: 20%;
     }
     .home_grid--about p {
         grid-row: 5;
         grid-column: span 2;
         text-align: center;
+        margin: 1% 15% 1% 15%;
     }
     .home_grid--about p:first-of-type {
         grid-row: 4;
