@@ -134,8 +134,12 @@ a:hover {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
 }
+.home_grid--about {
+    display: inline-block;
+    margin-bottom: calc(var(--six-px)*4);
+}
 .home_grid--about p {
-    padding: 0 var(--six-px) 0 var(--six-px);
+    margin: calc(var(--six-px)*4) var(--six-px) var(--six-px) var(--six-px);
 }
 .home_grid--about-img {
     width: 30vw;
@@ -189,7 +193,7 @@ a:hover {
     .home_grid--about {
         display: grid;
         grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
     }
     .home_grid--about-img{
         grid-column: 1;
@@ -200,6 +204,11 @@ a:hover {
         grid-row: 2;
         margin-right: 20%;
     }
+    .home_grid--about .home_grid--about-blurb {
+        grid-row: 4;
+        grid-column: span 2;
+    }
+    /*
     .home_grid--about p {
         grid-row: 5;
         grid-column: span 2;
@@ -209,7 +218,7 @@ a:hover {
     .home_grid--about p:first-of-type {
         grid-row: 4;
         grid-column: span 2;
-    }
+    }*/
 
 }
 
