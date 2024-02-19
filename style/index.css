@@ -187,6 +187,25 @@ a {
     .home_grid--about {
         display: grid;
         grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
     }
+    .home_grid--about-img{
+        grid-column: 1;
+        grid-row: span 3;
+    }
+    .home_grid--about h1 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .home_grid--about p {
+        grid-row: 5;
+        grid-column: span 2;
+        text-align: center;
+    }
+    .home_grid--about p:first-of-type {
+        grid-row: 4;
+        grid-column: span 2;
+    }
+
 }
 
