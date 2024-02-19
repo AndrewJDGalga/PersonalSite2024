@@ -170,13 +170,13 @@ a {
     .purple_accent_square {
         background-color: var(--darkgreypurple);
         z-index: -2;
-        top: 5rem;
-        left: 50%;
+        top: 6rem;
+        left: 55%;
     }
     .blue_accent_square {
         background-color: var(--forgottenblue);
         z-index: -1;
-        top: 10%;
+        top: 64px;
         left:40%;
     }
 
