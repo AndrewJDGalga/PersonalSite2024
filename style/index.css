@@ -208,17 +208,5 @@ a:hover {
         grid-row: 4;
         grid-column: span 2;
     }
-    /*
-    .home_grid--about p {
-        grid-row: 5;
-        grid-column: span 2;
-        text-align: center;
-        margin: 1% 15% 1% 15%;
-    }
-    .home_grid--about p:first-of-type {
-        grid-row: 4;
-        grid-column: span 2;
-    }*/
-
 }
 
