@@ -51,8 +51,10 @@ h1,h2,h3 {
     text-align: center;
 }
 a {
-    font-style: none;
     color: var(--grey);
+}
+a:hover {
+    color: var(--light-brown);
 }
 
 .site_content {
