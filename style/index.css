@@ -80,8 +80,12 @@ a:hover {
     padding: var(--three-px);
 }
 .reveal_button {
+    /*
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);*/
+    font-family: 'Inria Serif', serif;
+    text-align: center;
+    font-weight: 600;
 }
 .reveal_button:hover, .link-button:hover {
     background-color: var(--darkgreypurple);
