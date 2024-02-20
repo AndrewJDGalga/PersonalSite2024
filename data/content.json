@@ -3,7 +3,7 @@
         "0":{
             "title": "ATX Game Designers",
             "titleLink": "https://atxgamedesigners.com/",
-            "photoLocation": "data/photos/atxgamedesigners.png",
+            "photoLocation": "data/photos/atxgamedesigners.webp",
             "photoAlt":"Photo of ATX Game Designers website",
             "blurb": "Created for local board game design group ATX Game Designers as part of my Web Development Practicum (final coursework). I created 2 versions of this site: 1 in WordPress for the client, and 1 from HTML, CSS, and JS for my college.",
             "buttonText":"WordPress Theme on GitHub",
@@ -12,7 +12,7 @@
         "1":{
             "title": "In the Dark Timer",
             "titleLink": "https://inthedarktimer.com/",
-            "photoLocation": "data/photos/inthedarktimer.png",
+            "photoLocation": "data/photos/inthedarktimer.webp",
             "photoAlt":"Photo of In The Dark Timer website",
             "blurb": "In the Dark Timer is a companion web app for a board game. The game's Designer required a timer with vague effects that would indicate time was passing without revealing the time remaining to players of the board game. I built a small backend with PHP to allow the Designer to modify audio files and timer timing.",
             "buttonText":"GitHub",
@@ -23,7 +23,7 @@
         "0":{
             "title": "Fight for Phoenix",
             "titleLink": "https://quietwarrior.itch.io/fight-for-phoenix",
-            "photoLocation": "data/photos/fightforphoenix.png",
+            "photoLocation": "data/photos/fightforphoenix.webp",
             "photoAlt":"Title image for Fight for Phoenix",
             "blurb": "Fight for Phoenix is a prototype produced for the in-person ATX Game Makers 2nd Annual Game Jam-A-Thon. I assisted as a Unity Programmer by designing the movement and feel of the Player and Enemy entities.",
             "buttonText":"GitHub",
@@ -32,7 +32,7 @@
         "1":{
             "title": "Redneck Fishin",
             "titleLink": "https://dgalga.itch.io/ggj2024-redneckfishin",
-            "photoLocation": "data/photos/RedNeckFishing.png",
+            "photoLocation": "data/photos/RedNeckFishing.webp",
             "photoAlt":"Title protagonist Curtis without a shirt.",
             "blurb": "Submission for Global Game Jam 2024. I assisted a team relatively new to game jams as a Godot Programmer and Support Designer. Hosted by the Museum of Human Achievement in Austin.",
             "buttonText":"GitHub",
@@ -41,7 +41,7 @@
         "2":{
             "title": "Dagger Duel",
             "titleLink": "https://andrewjonhardt.com/daggerduel",
-            "photoLocation": "data/photos/daggerduel.png",
+            "photoLocation": "data/photos/daggerduel.webp",
             "photoAlt":"Photo from the page I setup to show Dagger Duel to potential publishers.",
             "blurb": "Dagger Duel is a project I've been developing since March 2023. It's the first I've created that feels like it could be something good. I'm currently figuring out the theme, as the name doesn't fit the feel, and how I should approach selling the game. If you're a publisher, or someone interested in providing financial backing after trying the web demo, let me know!",
             "buttonText":"GitHub for web demo",
