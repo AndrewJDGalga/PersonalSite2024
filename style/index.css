@@ -163,7 +163,7 @@ a:hover {
     background-color: var(--darkgreypurple);
 }
 .home_grid--contact h2 {
-    color: var(--brightblue);
+    color: var(--light-brown); /*white;*/ /*var(--brightblue);*/
 }
 
 /*Desktop view */
