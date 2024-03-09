@@ -17,6 +17,15 @@
             "blurb": "In the Dark Timer is a companion web app for a board game. The game's Designer required a timer with vague effects that would indicate time was passing without revealing the time remaining to players of the board game. I built a small backend with PHP to allow the Designer to modify audio files and timer timing.",
             "buttonText":"GitHub",
             "buttonLink":"https://github.com/AndrewJDGalga/InTheDark"
+        },
+        "2":{
+            "title": "Tiny Photography Gallery",
+            "titleLink": "https://andrewjonhardt.com/photographer_proto/index.html",
+            "photoLocation": "data/photos/tiny_photo_gal.png",
+            "photoAlt":"Photo of Tiny Photo Gallery project",
+            "blurb": "Portfolio website and exploration of the Bootstrap CSS framework. Photography sourced from Allec Gomes, Ivan Rudoy, Kevin Mueller, and Kyle Nieber via Unsplash.",
+            "buttonText":"GitHub",
+            "buttonLink":"https://github.com/AndrewJDGalga/practice-photographer-portfolio-site"
         }
     },
     "game":{
