@@ -78,6 +78,7 @@ a:hover {
 }
 .link-button {
     padding: var(--three-px);
+    text-align: center;
 }
 .reveal_button {
     font-family: 'Inria Serif', serif;

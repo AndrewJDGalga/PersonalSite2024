@@ -5,7 +5,7 @@
             "titleLink": "https://atxgamedesigners.com/",
             "photoLocation": "data/photos/atxgamedesigners.webp",
             "photoAlt":"Photo of ATX Game Designers website",
-            "blurb": "Created for local board game design group ATX Game Designers as part of my Web Development Practicum (final coursework). I created 2 versions of this site: 1 in WordPress for the client, and 1 from HTML, CSS, and JS for my college.",
+            "blurb": "Created for local board game design group ATX Game Designers as part of my Web Development Practicum (final coursework). There are 2 versions of this site: 1 in WordPress for the client, and 1 in vanilla HTML, CSS, and JS for the college.",
             "buttonText":"WordPress Theme on GitHub",
             "buttonLink":"https://github.com/AndrewJDGalga/ATXGDThemePublic"
         },
@@ -14,7 +14,7 @@
             "titleLink": "https://inthedarktimer.com/",
             "photoLocation": "data/photos/inthedarktimer.webp",
             "photoAlt":"Photo of In The Dark Timer website",
-            "blurb": "In the Dark Timer is a companion web app for a board game. The game's Designer required a timer with vague effects that would indicate time was passing without revealing the time remaining to players of the board game. I built a small backend with PHP to allow the Designer to modify audio files and timer timing.",
+            "blurb": "In the Dark Timer is a companion web app for a board game. The game's Designer required a timer with vague effects that would indicate time was passing without revealing the actual time remaining. Built to accept data via a custom PHP backend.",
             "buttonText":"GitHub",
             "buttonLink":"https://github.com/AndrewJDGalga/InTheDark"
         },
@@ -23,7 +23,7 @@
             "titleLink": "https://andrewjonhardt.com/photographer_proto/index.html",
             "photoLocation": "data/photos/tiny_photo_gal.png",
             "photoAlt":"Photo of Tiny Photo Gallery project",
-            "blurb": "Portfolio website and exploration of the Bootstrap CSS framework. Photography sourced from Allec Gomes, Ivan Rudoy, Kevin Mueller, and Kyle Nieber via Unsplash.",
+            "blurb": "Portfolio project and exploration of the Bootstrap CSS framework. Photography sourced from Allec Gomes, Ivan Rudoy, Kevin Mueller, and Kyle Nieber via Unsplash.",
             "buttonText":"GitHub",
             "buttonLink":"https://github.com/AndrewJDGalga/practice-photographer-portfolio-site"
         }
@@ -52,8 +52,8 @@
             "titleLink": "https://andrewjonhardt.com/daggerduel",
             "photoLocation": "data/photos/daggerduel.webp",
             "photoAlt":"Photo from the page I setup to show Dagger Duel to potential publishers.",
-            "blurb": "Dagger Duel is a project I've been developing since March 2023. It's the first I've created that feels like it could be something good. I'm currently figuring out the theme, as the name doesn't fit the feel, and how I should approach selling the game. If you're a publisher, or someone interested in providing financial backing after trying the web demo, let me know!",
-            "buttonText":"GitHub for web demo",
+            "blurb": "Dagger Duel web demo. Dagger Duel is a 2 player abstract boardgame I've been developing since March 2023. This project has undergone thousands of thematic and mechanical iterations, and I'm hoping to finish it before the end of 2024. I'm currently unsure how publishing will work.",
+            "buttonText":"GitHub",
             "buttonLink":"https://github.com/AndrewJDGalga/daggerduel-minimal"
         }
     }
