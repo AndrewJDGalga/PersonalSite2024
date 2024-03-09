@@ -21,7 +21,7 @@
         "2":{
             "title": "Tiny Photography Gallery",
             "titleLink": "https://andrewjonhardt.com/photographer_proto/index.html",
-            "photoLocation": "data/photos/tiny_photo_gal.png",
+            "photoLocation": "data/photos/tiny_photo_gal.webp",
             "photoAlt":"Photo of Tiny Photo Gallery project",
             "blurb": "Portfolio project and exploration of the Bootstrap CSS framework. Photography sourced from Allec Gomes, Ivan Rudoy, Kevin Mueller, and Kyle Nieber via Unsplash.",
             "buttonText":"GitHub",
